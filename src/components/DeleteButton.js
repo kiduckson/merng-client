@@ -44,7 +44,7 @@ function DeleteButton({ postId, commentId, callback }) {
 
       <Confirm
         open={confirmOpen}
-        content="이 포스트를 삭제하시겠습니까?"
+        content="이 내용을 삭제하시겠습니까?"
         cancelButton="아니오"
         confirmButton="예"
         onCancel={() => setConfirmOpen(false)}
